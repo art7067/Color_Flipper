@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  background: #181818;
+  color: #fafafa;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #181818;
+  max-width: fit-content;
+  margin: 0 auto 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.header {
+  background: #fafafa;
+  padding: 15px 0;
+}
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  color: #181818;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tab {
+  border: 1px solid #181818;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  background: #181818;
+  color: #fafafa;
+}
+
+.tab.active {
+  background: #181818;
+  color: #fafafa;
+  cursor: default;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.main_wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.btn {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.35em 1.15em;
+  background: transparent;
+  color: #fafafa;
+  border: 3px solid #fafafa;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background: #fafafa;
+  color: #181818;
+}
+
+.footer_wrapper {
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer_item {
+  width: 150px;
+  height: 100px;
+  border: 3px solid #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.btn--footer {
+  font-size: 14px;
+}

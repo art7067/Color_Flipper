@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="tabs">
+        <li class="tab active" data-tab="1">Color Flipper</li>
+        <li class="tab" data-tab="2">Tab 2</li>
+        <li class="tab" data-tab="3">Tab 3</li>
+        <li class="tab" data-tab="4">Tab 4</li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="tab-content active" data-tab-content="1">
+        <h1>Color Flipper</h1>
+        <div class="main_wrapper">
+          <p>Background color: <span class="color">#181818</span></p>
+          <button class="btn">Click me!</button>
+        </div>
+        <div class="footer_wrapper">
+          <div class="footer_item">
+            <button class="btn btn--footer">Change bg!</button>
+          </div>
+          <div class="footer_item">
+            <button class="btn btn--footer">Change bg!</button>
+          </div>
+          <div class="footer_item">
+            <button class="btn btn--footer">Change bg!</button>
+          </div>
+          <div class="footer_item">
+            <button class="btn btn--footer">Change bg!</button>
+          </div>
+          <div class="footer_item">
+            <button class="btn btn--footer">Change bg!</button>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" data-tab-content="2">Tab Content 2</div>
+      <div class="tab-content" data-tab-content="3">Tab Content 3</div>
+      <div class="tab-content" data-tab-content="4">Tab Content 4</div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
